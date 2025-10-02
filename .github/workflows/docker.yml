@@ -28,7 +28,6 @@ jobs:
 
       - name: Build Docker image
         run: |
-          cd java-app
           docker build -t prince0127/python-app:latest .
 
       - name: Push Docker image
